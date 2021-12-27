@@ -14,3 +14,13 @@ Laravel PHP Framework
 > php artisan serve
 
 <hr>
+
+## The Laravel Installer
+
+> composer global require laravel/installer
+
+> laravel new example-app
+
+> cd example-app
+
+> php artisan serve
