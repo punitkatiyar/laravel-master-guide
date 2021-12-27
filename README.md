@@ -5,6 +5,8 @@ Laravel PHP Framework
 
 ## Install Laravel using Composer
 
+> ### <a href="https://getcomposer.org/">get composer</a>
+
 > composer create-project laravel/laravel example-app
 
 > cd example-app
