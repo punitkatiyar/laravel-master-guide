@@ -1,3 +1,5 @@
+<img src="https://laravel.com/img/logomark.min.svg">
+
 # laravel
 Laravel PHP Framework
 
