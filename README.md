@@ -1,6 +1,6 @@
 <img src="https://laravel.com/img/logomark.min.svg">
 
-# laravel
+# Laravel
 Laravel PHP Framework
 
 ## Install Laravel using Composer
