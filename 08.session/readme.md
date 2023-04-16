@@ -20,8 +20,23 @@ function session_get(Request,$r)
 ## remove the session
 
 <pre>
-function session_get(Request,$r)
+function session_remove(Request,$r)
 {
   $r->session()->forget('name');
+}
+</pre>
+
+## check the session
+
+<pre>
+function session_check(Request,$r)
+{
+  if($r->session()->has('name'))
+  {
+  echo "yes";
+  }
+  else{
+  echo "No";
+  }
 }
 </pre>
