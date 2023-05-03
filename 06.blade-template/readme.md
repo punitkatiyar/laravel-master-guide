@@ -9,3 +9,25 @@
 - **One of the key features of Blade is its support for template inheritance. This allows developers to create a base template that contains common elements such as a header and footer, and then extend that template to create new views that include specific content for each page.**
 
 - **Blade also includes a number of other useful features, such as control structures (e.g. if/else statements, loops), variables, and includes, which make it easy to create dynamic views that respond to user input.**
+
+## Blade template uses a basic HTML structure to display some dynamic content
+
+```
+<!-- resources/views/welcome.blade.php -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ $title }}</title>
+</head>
+<body>
+    <h1>Welcome to my website!</h1>
+    <p>{{ $description }}</p>
+    @if($show_button)
+        <a href="{{ $button_link }}" class="button">{{ $button_text }}</a>
+    @endif
+</body>
+</html>
+
+
+```
