@@ -14,3 +14,16 @@ You can also specify an optional --resource flag when creating a controller to g
 ```
 php artisan make:controller UserController --resource
 ```
+<hr>
+
+- This will create a UserController class that extends the ResourceController class provided by Laravel, which includes the typical RESTful actions as methods.
+
+- Once you've created your controller, you can define routes that map to the methods of the controller using the Route:: facade in your routes/web.php file.
+
+- For example, if you have a UserController with a show() method, you could define a route like this:
+
+```
+Route::get('/users/{id}', 'UserController@test');
+
+```
+
