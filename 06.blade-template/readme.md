@@ -31,3 +31,30 @@
 
 
 ```
+## This controler File For Hold The data
+
+```
+// app/Http/Controllers/WelcomeController.php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class WelcomeController extends Controller
+{
+    public function index()
+    {
+        $data = [
+            'title' => 'Welcome to my website',
+            'description' => 'This is a demo of a Laravel Blade template',
+            'show_button' => true,
+            'button_link' => 'https://example.com',
+            'button_text' => 'Click here to learn more',
+        ];
+
+        return view('welcome', $data);
+    }
+}
+
+```
+
