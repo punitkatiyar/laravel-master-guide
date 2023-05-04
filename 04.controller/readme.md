@@ -22,6 +22,8 @@ php artisan make:controller UserController --resource
 
 - For example, if you have a UserController with a show() method, you could define a route like this:
 
+## laravel 8
+
 ```
 Route::get('/users/{id}', 'UserController@test');
 
