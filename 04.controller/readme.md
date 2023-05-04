@@ -26,4 +26,9 @@ php artisan make:controller UserController --resource
 Route::get('/users/{id}', 'UserController@test');
 
 ```
+## laravel 9 
+
+```
+Route::get('user/{id?}',[UserControler::class, 'test']);
+```
 
