@@ -1,4 +1,14 @@
 # Laravel Route
+
+- Route::get($uri, $callback);
+- Route::post($uri, $callback);
+- Route::put($uri, $callback);
+- Route::patch($uri, $callback);
+- Route::delete($uri, $callback);
+- Route::options($uri, $callback);
+
+
+
 ```
 <?php
 use Illuminate\Support\Facades\Route;
