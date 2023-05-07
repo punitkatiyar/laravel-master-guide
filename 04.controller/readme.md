@@ -7,6 +7,20 @@ To create a controller in Laravel, you can use the **make:controller Artisan com
 ```
 php artisan make:controller UserController
 ```
+```
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class UserController extends Controller
+{
+    //
+}
+?>
+```
+
 <hr>
 
 You can also specify an optional --resource flag when creating a controller to generate a controller with the typical RESTful actions (index, create, store, show, edit, update, and destroy) already defined:
