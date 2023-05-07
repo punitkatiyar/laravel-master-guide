@@ -1,5 +1,7 @@
 # Directory Structure
 
+**The directory structure of a Laravel application is designed to provide a clear and organized separation of concerns, making it easy to manage and scale your application as it grows. Here's a brief overview of the main directories in a typical Laravel application:**
+
 ```
 app/                    // contains application logic
 ├── Console/            // contains console commands
