@@ -24,3 +24,11 @@ Laravel PHP Framework
 > cd example-app
 
 > php artisan serve
+
+<hr>
+
+## cheack PHP Version 
+
+```
+{{ PHP_VERSION }}
+```
