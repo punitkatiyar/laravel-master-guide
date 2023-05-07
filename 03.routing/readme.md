@@ -6,6 +6,11 @@
 - Route::patch($uri, $callback);
 - Route::delete($uri, $callback);
 - Route::options($uri, $callback);
+- Route::view($uri, $view, $data) 
+- Route::redirect($uri, $destination)
+- Route::fallback($callback)
+
+<hr>
 
 
 
