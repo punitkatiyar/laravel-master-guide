@@ -6,17 +6,17 @@
 
 # Controler Function
 
-<pre>
+```
 public function show(todo $todo)
     {
         return view('todo_show')->with('todoArr',todo::all());
     }
-</pre>
+```
 
 
 # Blade File
 
-<pre>
+```
 <table border="1" width="50%" cellpadding="10px">
     <tr>
         <td>Id</td>
@@ -32,4 +32,4 @@ public function show(todo $todo)
 
     @endforeach
 </table>
-</pre>
+```
