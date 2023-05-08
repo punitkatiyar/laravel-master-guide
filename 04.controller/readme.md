@@ -13,7 +13,7 @@ php artisan make:controller UserController
 You can also specify an optional --resource flag when creating a controller to generate a controller with the typical RESTful actions (index, create, store, show, edit, update, and destroy) already defined:
 
 ```
-php artisan make:controller UserController --resource
+php artisan make:controller AdminController --resource
 ```
 
 <hr>
