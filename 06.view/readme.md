@@ -1,6 +1,6 @@
 ## Image CSS and Javascript In Laravel
 
-**Store external data in public folder **
+**Store external data in public folder**
 
 
 
