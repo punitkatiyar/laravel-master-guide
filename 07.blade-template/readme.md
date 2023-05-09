@@ -10,3 +10,9 @@
 
 - **Blade also includes a number of other useful features, such as control structures (e.g. if/else statements, loops), variables, and includes, which make it easy to create dynamic views that respond to user input.**
 
+
+```
+@yield(title)
+@section("title","Hello App");
+```
+
