@@ -4,7 +4,11 @@ Copyright (C) Microsoft Corporation. All rights reserved.
 
 Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
 
-PS C:\> composer -v
+</pre>
+
+## PS C:\> composer -v
+
+<pre>
    ______
   / ____/___  ____ ___  ____  ____  ________  _____
  / /   / __ \/ __ `__ \/ __ \/ __ \/ ___/ _ \/ ___/
@@ -64,7 +68,11 @@ Available commands:
   suggests             Shows package suggestions
   update               [u|upgrade] Updates your dependencies to the latest version according to composer.json, and updates the composer.lock file
   validate             Validates a composer.json and composer.lock
-PS C:\> composer global require laravel/installer
+</pre>
+
+## PS C:\> composer global require laravel/installer
+
+<pre>
 Changed current directory to C:/Users/codew/AppData/Roaming/Composer
 Info from https://repo.packagist.org: #StandWithUkraine
 ./composer.json has been created
