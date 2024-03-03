@@ -27,6 +27,13 @@ Laravel PHP Framework
 
 <hr>
 
+## Create Controler
+
+> php artisan:controler UserControler
+> 
+
+
+
 ## cheack PHP Version 
 
 ```
