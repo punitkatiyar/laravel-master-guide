@@ -1,5 +1,5 @@
 # laravel Component
 
-## craete a component
+## Craete A Component
 
 > php artisan make:component Header
