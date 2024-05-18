@@ -1,6 +1,10 @@
 # laravel URL Class
 
 > curent url : {{URL::current()}}
+> curent url : {{URL::current()}}
+> curent url : {{URL::current()}}
+> curent url : {{URL::current()}}
+
 
 
 
