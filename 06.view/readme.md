@@ -1,9 +1,12 @@
 # laravel URL Class
 
 > curent url : {{URL::current()}}
-> curent url : {{URL::current()}}
-> curent url : {{URL::current()}}
-> curent url : {{URL::current()}}
+
+> full url : {{URL::full()}}
+
+> Current url : {{URL::current()}}
+
+> Previous url : {{URL::previous()}}
 
 
 
