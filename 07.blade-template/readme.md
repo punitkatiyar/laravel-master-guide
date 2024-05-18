@@ -38,7 +38,7 @@ $data="Hello";
 @endif
 
 ```
-# Loops 
+# For Loop 
 
 ```
 @for($i=0;$i<10;$i++)
@@ -46,6 +46,14 @@ $data="Hello";
 @endfor
 ```
 
+# foreach loop
+
+```
+@foreach ($users as $user)
+<h3>{{$user}}</h3>
+    
+@endforeach
+```
 
 
 
