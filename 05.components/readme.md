@@ -6,7 +6,7 @@
 
 # Work Space
 
-- app/view/Component/Header.php
+### app/view/Component/Header.php
 
 ```
 <?php
@@ -38,14 +38,16 @@ class Header extends Component
 
 ```
 
-- resources/view/components/header.blade.php
+### resources/view/components/header.blade.php
 
-  ```
+```
   <div>
-    <!-- Simplicity is an acquired taste. - Katharine Gerould -->
+
+  <!-- Simplicity is an acquired taste. - Katharine Gerould -->
+  
 </div>
   
-  ```
+```
 
 # call the component
 
