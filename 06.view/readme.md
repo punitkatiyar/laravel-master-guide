@@ -1,3 +1,12 @@
+# laravel URL Class
+
+> curent url : {{URL::current()}}
+
+
+
+
+
+
 ## Image CSS and Javascript In Laravel
 
 **Store external data in public folder**
