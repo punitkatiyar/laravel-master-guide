@@ -10,7 +10,7 @@
 
 - **Blade also includes a number of other useful features, such as control structures (e.g. if/else statements, loops), variables, and includes, which make it easy to create dynamic views that respond to user input.**
 
-# example One
+# Data Binding
 
 ```
 <?php
@@ -22,15 +22,20 @@ echo $data;
 
 ```
 
-# example Two
+# Control Statement
 
 ```
 <?php
 $data="Hello";
-echo $data;   
 ?>
 
-{{$data}}
+@if($data=='Hello')
+<h1>Welcome User</h1>
+@elseif($data=='user')
+<h1>Welcome Admin</h1>
+@else
+<h1>Hello Guest </h1>
+@endif
 
 ```
 
