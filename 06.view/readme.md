@@ -8,6 +8,13 @@
 
 > Previous url : {{URL::previous()}}
 
+## Anchor Tag In Laravel
+
+```
+<a href="{{URL::to('/page/')}}">Page</a>
+<a href="{{URL::to('/page/sub-page')}}">Sub Page</a>
+```
+
 
 
 
