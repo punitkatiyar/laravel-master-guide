@@ -12,4 +12,4 @@
 
 # call the component
 
-> <x-header></x-header>
+> < x-header >< /x-header >
