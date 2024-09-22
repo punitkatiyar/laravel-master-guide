@@ -1,6 +1,30 @@
 # controler
 
 ```
+public function create(Request $request)
+    {
+        //step 1
+        echo "<h1>Hello</h1>";
+        echo '<hr>';
+        echo "<h2><pre>";
+        print_r($_POST);
+        echo "</pre></h2>";
+        
+        // step 2
+        echo '<hr>';
+        echo $_POST['name'];
+
+        //  step 3
+        echo '<hr>';
+        $name=$request->input('name');
+        echo $name;
+
+
+        
+}
+```
+
+```
 public function store(Request $request)
     {
         //
