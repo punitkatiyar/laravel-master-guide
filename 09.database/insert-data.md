@@ -14,6 +14,8 @@ public function store(Request $request)
 
 # View 
 
+**In Laravel, CSRF (Cross-Site Request Forgery) protection is a security feature that helps to prevent malicious websites or scripts from performing actions on behalf of authenticated users without their consent. Laravel includes built-in CSRF protection for all forms submitted through the web interface.**
+
 ```
 < form method="post" action="todo_submit" >
     @csrf
