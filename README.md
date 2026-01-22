@@ -3,6 +3,24 @@
 # Laravel
 Laravel PHP Framework
 
+## Prerequisites
+
+> HTML
+
+> CSS
+
+> Basic JS
+
+> Core PHP
+
+> OOP in PHP
+
+> MySQL basics
+
+
+
+
+
 ## Install Laravel using Composer
 
 > ### <a href="https://getcomposer.org/">get composer</a>
