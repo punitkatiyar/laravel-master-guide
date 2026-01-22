@@ -17,6 +17,22 @@ Laravel PHP Framework
 
 > MySQL basics
 
+## Must know PHP Topics 
+
+> functions
+
+> arrays
+
+> loops
+
+> forms
+
+> sessions
+
+> classes & objects
+
+> MVC concept
+
 
 
 
